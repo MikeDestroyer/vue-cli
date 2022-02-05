@@ -15,7 +15,7 @@ export default {
       required: true,
     },
   },
-  method: {
+  methods: {
     addNote() {
       this.$emit("addNoteEmit", this.note);
     },
