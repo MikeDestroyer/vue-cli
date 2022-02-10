@@ -66,13 +66,10 @@ section, .section {
   margin: 0 auto;
 }
 
-.wrapper-content {
+.content-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  &.wrapper-content--fixed {
-    margin-top: 80px;
-  }
 }
 
 .container {
