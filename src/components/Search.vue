@@ -29,7 +29,6 @@ export default {
   },
   watch: {
     search (val) {
-      // console.log(val)
       this.$emit('search', val);
     }
   }

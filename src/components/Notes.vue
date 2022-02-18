@@ -27,9 +27,10 @@ export default {
     }
   },
   methods: {
-    // removeNote(index) {
-    //   this.$emit('remove')
-    // }
+    removeNote(index) {
+      console.log(`notes ${index}`)
+      this.$emit('remove', index)
+    }
   }
 
 }
